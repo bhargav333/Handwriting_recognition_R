@@ -42,7 +42,7 @@ traceCorr = function(dat1, dat2)
 }
 
 # Please set the proper path of this file.
-load("C:/Users/bhargav/Downloads/Handwriting_recognition/train.RData");
+load("../train.RData");
 guess = function(verbose = FALSE)
 {
     test = getData();
